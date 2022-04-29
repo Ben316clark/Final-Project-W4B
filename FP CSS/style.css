@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid #000;
+}
+nav{
+    background-color: #17263a;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    border-top: #fff;
+}
+.logo{
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px ;
+    float: left;
+    clear: both;
+}
+nav h1{
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #967245;
+}
+nav ul{
+    float: right; 
+    margin: -32px 10px;
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav ul a:link {
+    color: #967245;
+    padding: 15px;
+}
+nav ul a:visited{
+    color:#967245;
+    padding: 15px;
+}
+nav ul a:hover{
+    color: #967245;
+    padding: 15px;
+    border-bottom:5px solid #dad9de;
+}
+nav ul a:active{
+    color: #967245;
+    padding: 13px;
+    border-bottom:5px solid #dad9de;
+}
+.hero-text{
+    height: 780px;
+    width: 100%;
+    background: url('./heroyellow.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+main div h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+main div p{
+    color: #fff;
+    text-align: center;
+}
+aside{
+    border: 1px solid black;
+    height: 2000px;
+    width: 20%;
+    float: right;
+    clear: both;
+}
+section{
+    border: 1px solid black;
+    height: 1000px;
+    width: 75%;
+    float: left;
+    clear: left;
+}
+footer{
+    clear:both;
+}
