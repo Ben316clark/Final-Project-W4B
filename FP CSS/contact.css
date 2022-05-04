@@ -59,3 +59,7 @@ nav ul a:active{
     padding: 13px;
     border-bottom:5px solid #dad9de;
 }
+.twitterfeed{
+    top: 50% ;
+    right: 500px;
+}

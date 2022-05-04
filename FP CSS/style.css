@@ -2,15 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
-
 /*  This is the start of my Navigation Section   */
-.border{
-    border: 1px solid #000;
-}
 nav{
-    background-color: #17263a;
-    background: linear-gradient(from top );
+    background-color: rgba(23, 38, 58, 0.918);
     height: 50px;
     width: 100%;
     position: sticky;
@@ -33,6 +29,7 @@ nav h1{
     margin: 0px;
     text-transform: uppercase;
     color: #967245;
+    text-shadow: 4px 4px 4px #000; 
 }
 nav ul{
     float: right; 
@@ -62,6 +59,8 @@ nav ul a:active{
     padding: 13px;
     border-bottom:5px solid #dad9de;
 }
+/*This is the end of Navigation */ 
+/*This is the start of Hero Section */
 main{ 
     height: 780px;
     width: 100%;
@@ -73,16 +72,20 @@ main{
 .hero-text{
     color: #fff;
     text-align: center;
-    
-}
-main div h2{
     padding-top: 250px;
     text-transform: uppercase;
     font-size: 70px;
+    text-shadow: 3px 3px 3px #967245; 
 }
-main div p{
-    
+.hero-para{
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
 }
+/* End of Hero Section */
+/* Start of Style Area */
 .stylehead{
     height: 100px;
     background-color: #17263a;
@@ -91,6 +94,7 @@ main div p{
     color: #967245; 
     font-size: 70px;
     text-align: center;
+    text-shadow: 4px 4px 4px #000; 
 }
 .style{
     height: 1000px;
@@ -98,8 +102,7 @@ main div p{
     background-color: #17263a;
 }
 .row{
-    text-align: center
-;
+    text-align: center;
 }
 .column{
     height: 320PX;
@@ -108,17 +111,46 @@ main div p{
     margin: 5px;
     text-align: center;
 }
-.moreinfo{
-    border: 1px solid black;
-    height: 1000px;
-    width: 50px;
+/* End of Style Area */
+/* Start of Additional Services */
+.Additional{
+    height: 500px;
     clear: both;
+    background-color: #17263a;
 }
+.Additional p{
+    color: #967245;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+.row2{
+    margin-left: 18%;
+}
+.column2{
+    height: 250px;
+    width: 20%;
+    float: left;
+    margin: 60px;
+}
+/* End of Additional Services */
+/* Start of Footer */
 footer{
     clear:both;
     width: 100%;
     height: 200px;
     background-color: #17263a;
+}
+.FooterNav{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    clear: both;
+}
+.FooterNav ul li{
+    color: #967245;
+    list-style: none;
+    display: inline inline-block;
 }
 footer p{
     text-align: center;
@@ -126,4 +158,12 @@ footer p{
     color: #967245;
     text-transform: capitalize;
     padding-top: 40px;
+    clear: both;
+    text-shadow: 4px 4px 4px #000; 
 }
+.FooterSocial{
+    clear: both;
+    float: right;
+    margin: 20px;
+}
+/* End of Footer */
