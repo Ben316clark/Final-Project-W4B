@@ -6,7 +6,7 @@
 }
 /*  This is the start of my Navigation Section   */
 nav{
-    background-color: rgba(23, 38, 58, 0.918);
+    background-color: rgb(23, 38, 58);
     height: 50px;
     width: 100%;
     position: sticky;
@@ -29,7 +29,6 @@ nav h1{
     margin: 0px;
     text-transform: uppercase;
     color: #967245;
-    text-shadow: 4px 4px 4px #000; 
 }
 nav ul{
     float: right; 
@@ -88,7 +87,7 @@ main{
 /* Start of Style Area */
 .stylehead{
     height: 100px;
-    background-color: #17263a;
+    background-color: #fff;
 }
 .stylehead h2{
     color: #967245; 
@@ -99,30 +98,32 @@ main{
 .style{
     height: 1000px;
     width: 100% ;
-    background-color: #17263a;
+    background-color: #fff;
 }
 .row{
     text-align: center;
 }
 .column{
-    height: 320PX;
-    width: 32%;
+    height: 500PX;
+    width: 500px;
     float: left;
-    margin: 5px;
+    margin: 6.5%;
     text-align: center;
+    background-color: #17263a;
 }
 /* End of Style Area */
 /* Start of Additional Services */
 .Additional{
     height: 500px;
     clear: both;
-    background-color: #17263a;
+    background-color: #fff;
 }
 .Additional p{
     color: #967245;
     font-weight: 300;
     font-size: 40px;
     text-align: center;
+    text-shadow: 1px 1px 1px #000; 
 }
 .row2{
     margin-left: 18%;
@@ -133,10 +134,21 @@ main{
     float: left;
     margin: 60px;
 }
+.shoe{
+    background-color: #17263a;
+}
+.ShoesVid{
+    padding: 10px;
+}
+.Accessories{
+    background-color: #17263a;
+}
+.AccessoriesVid{
+    padding: 10px;
+}
 /* End of Additional Services */
 /* Start of Footer */
 footer{
-    clear:both;
     width: 100%;
     height: 200px;
     background-color: #17263a;
@@ -145,24 +157,24 @@ footer{
     float: left;
     list-style: none;
     text-transform: uppercase;
-    clear: both;
+    text-align: left;
+    margin: 80px 40px;
 }
 .FooterNav ul li{
     color: #967245;
     list-style: none;
-    display: inline inline-block;
+    display: inline-block;
+    margin: 15px;
 }
 footer p{
-    text-align: center;
+    margin-left: 42%;
     font-size: 50px;
     color: #967245;
     text-transform: capitalize;
     padding-top: 40px;
-    clear: both;
     text-shadow: 4px 4px 4px #000; 
 }
 .FooterSocial{
-    clear: both;
     float: right;
     margin: 20px;
 }
