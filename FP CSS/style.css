@@ -111,6 +111,18 @@ main{
     text-align: center;
     background-color: #17263a;
 }
+.BoldSuit{
+    margin: -6px;
+}
+.ClassicSuit{
+    margin: -6px;
+}
+.CasualClassy{
+    margin: -6px;
+}
+.column:hover{
+    background-color: #967245;
+}
 /* End of Style Area */
 /* Start of Additional Services */
 .Additional{
@@ -140,11 +152,26 @@ main{
 .ShoesVid{
     padding: 10px;
 }
+.shoe:hover{
+    background-color: #967245;
+}
 .Accessories{
     background-color: #17263a;
 }
 .AccessoriesVid{
     padding: 10px;
+}
+.Accessories:hover{
+    background-color: #967245;
+}
+.Lifestyle{
+    background-color: #17263a;
+}
+.LifestyleVid{
+    padding: 10px;
+}
+.Lifestyle:hover{
+    background-color: #967245;
 }
 /* End of Additional Services */
 /* Start of Footer */
