@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 /*  This is the start of my Navigation Section   */
 nav{
@@ -86,7 +85,6 @@ main{
 /* End of Hero Section */
 /* Start of Style Area */
 .stylehead{
-    height: 100px;
     background-color: #fff;
 }
 .stylehead h2{
@@ -101,24 +99,17 @@ main{
     background-color: #fff;
 }
 .row{
-    text-align: center;
+    margin-left: 12%;
 }
 .column{
-    height: 500PX;
-    width: 500px;
+    height: 30vh;
+    width: 30vh;
+    margin: 120px;
     float: left;
-    margin: 6.5%;
-    text-align: center;
     background-color: #17263a;
 }
-.BoldSuit{
-    margin: -6px;
-}
-.ClassicSuit{
-    margin: -6px;
-}
-.CasualClassy{
-    margin: -6px;
+.style1{
+    padding: 10;
 }
 .column:hover{
     background-color: #967245;
@@ -166,12 +157,25 @@ main{
 }
 .Lifestyle{
     background-color: #17263a;
+    position: relative;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    
 }
 .LifestyleVid{
     padding: 10px;
+    position: relative;
 }
 .Lifestyle:hover{
     background-color: #967245;
+    visibility: visible;
+}
+.hidden{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left:120%;
+    visibility: hidden;
 }
 /* End of Additional Services */
 /* Start of Footer */
