@@ -102,17 +102,36 @@ main{
     margin-left: 12%;
 }
 .column{
-    height: 30vh;
-    width: 30vh;
-    margin: 120px;
+    height: 400px;
+    width: 392px;
+    margin: 150px;
     float: left;
     background-color: #17263a;
 }
-.style1{
-    padding: 10;
+.Style1{
+    margin: 20px;
 }
 .column:hover{
     background-color: #967245;
+}
+.styleinfo{
+    width: 210px;
+    padding: 5px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.styleinfo:hover{
+    width: 450px;
+}
+.styleinfo-text{
+    float: left;
+    width: 240px;
+    display: none;
+}
+.styleinfo:hover .styleinfo-text {
+    display: block;
 }
 /* End of Style Area */
 /* Start of Additional Services */
@@ -160,7 +179,6 @@ main{
     position: relative;
     text-align: center;
     color: rgb(5, 5, 5);
-    
 }
 .LifestyleVid{
     padding: 10px;
@@ -168,15 +186,9 @@ main{
 }
 .Lifestyle:hover{
     background-color: #967245;
-    visibility: visible;
+    font-size: 20px;
 }
-.hidden{
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    left:120%;
-    visibility: hidden;
-}
+
 /* End of Additional Services */
 /* Start of Footer */
 footer{
