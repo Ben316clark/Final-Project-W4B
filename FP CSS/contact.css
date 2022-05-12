@@ -59,39 +59,111 @@ nav ul a:active{
     padding: 13px;
     border-bottom:5px solid #dad9de;
 }
-
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
+    border: 1px solid #967245; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
   }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #967245;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: 1px solid #967245;
     border-radius: 4px;
     cursor: pointer;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #816037;
   }
   
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #17263a;
     padding: 20px;
+    color: #967245;
+    margin: 0px 800px;
+    border: 1px solid #967245;
   }
-.googlemap{
+.googlemap iframe{
+    margin: 20px 870px;
+}
+.phone{
+    width: 200px;
+    height: 200px;
+    background-color: #17263a;
+    float: left;
+    border: 2px solid #967245 ;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px 200px 50px 800px;
+}
+.address{
+    width: 200px;
+    height: 200px;
+    background-color: #17263a;
+    float: left;
+    margin-right: 200px;
+    border: 2px solid #967245 ;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.email{
+    width: 200px;
+    height: 200px;
+    background-color:#17263a;
+    float: left;
+    margin-right: 200px;
+    border: 2px solid #967245 ;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.words{
+    text-align: center;
+    color: #967245;
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #17263a;
+    clear: both;
+}
+.FooterNav{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 80px 40px;
+}
+.FooterNav ul li{
+    color: #967245;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+footer p{
+    margin-left: 1000px;
+    font-size: 50px;
+    color: #967245;
+    text-transform: capitalize;
+    padding-top: 40px;
+    text-shadow: 4px 4px 4px #000; 
+}
+.FooterSocial{
+    float: right;
+    margin: 20px;
 }

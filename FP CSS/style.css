@@ -116,18 +116,21 @@ main{
 }
 .styleinfo{
     width: 210px;
-    padding: 5px;
-    border: solid 1px #ccc;
+    padding: 4px;
+    border: solid 1px #967245;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
+    background-color: #17263a;
 }
 .styleinfo:hover{
-    width: 450px;
+    width: 372px;
+    background-color: #17263a;
+    color: #967245;
 }
 .styleinfo-text{
     float: left;
-    width: 240px;
+    width: 300px;
     display: none;
 }
 .styleinfo:hover .styleinfo-text {
@@ -158,27 +161,44 @@ main{
 }
 .shoe{
     background-color: #17263a;
+    position: relative;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-size: 30px;
+    color: #967245;
+    text-shadow: 1px 1px 1px #000;
 }
 .ShoesVid{
     padding: 10px;
 }
 .shoe:hover{
     background-color: #967245;
+    font-size: 40px;
 }
 .Accessories{
     background-color: #17263a;
+    position: relative;
+    text-align: center;
+    color: #967245;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 30px;
+    
 }
 .AccessoriesVid{
     padding: 10px;
 }
 .Accessories:hover{
     background-color: #967245;
+    font-size: 40px;
 }
 .Lifestyle{
     background-color: #17263a;
     position: relative;
     text-align: center;
     color: rgb(5, 5, 5);
+    font-size: 30px;
+    color: #967245;
+    text-shadow: 1px 1px 1px #000;
 }
 .LifestyleVid{
     padding: 10px;
@@ -186,7 +206,7 @@ main{
 }
 .Lifestyle:hover{
     background-color: #967245;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 /* End of Additional Services */
@@ -210,12 +230,13 @@ footer{
     margin: 15px;
 }
 footer p{
-    margin-left: 42%;
     font-size: 50px;
     color: #967245;
     text-transform: capitalize;
     padding-top: 40px;
     text-shadow: 4px 4px 4px #000; 
+    margin-left: 1000px;
+    
 }
 .FooterSocial{
     float: right;
