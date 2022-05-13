@@ -141,7 +141,8 @@ main{
 .Additional{
     height: 500px;
     clear: both;
-    background-color: #fff;
+    background-color: #fff; 
+    padding: 40px 0px;
 }
 .Additional p{
     color: #967245;
