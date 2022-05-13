@@ -132,6 +132,7 @@ main{
     float: left;
     width: 300px;
     display: none;
+    font-family: 'Merriweather', serif;
 }
 .styleinfo:hover .styleinfo-text {
     display: block;
